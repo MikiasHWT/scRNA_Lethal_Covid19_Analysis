@@ -6,14 +6,14 @@ This repository contains a comprehensive analysis of single-nuclei RNA sequencin
 
 The analysis is organized into several key stages, each documented in individual Jupyter notebooks:
 
-1. **Quality Control**: [1.Quality_Control.ipynb](https://github.com/MikiasHWT/scRNA_Lethal_Covid19_Analysis/blob/main/1.Quality_Control.ipynb)
+1. **Quality Control**: [jupyter notebook](https://github.com/MikiasHWT/scRNA_Lethal_Covid19_Analysis/blob/main/1.Quality_Control.ipynb)
    - *Overview*: Initial assessment and filtering of raw snRNA-seq data to ensure high-quality inputs for downstream analysis.
    - *Key Steps*:
      - Removal of low-quality nuclei and potential doublets.
      - Outlier detection using Median Absolute Deviation.
      - Assessment of sequencing depth and mitochondrial gene content.
 
-2. **Normalization**: [2.Normalization.ipynb](https://github.com/MikiasHWT/scRNA_Lethal_Covid19_Analysis/blob/main/2.Normalization.ipynb)
+2. **Normalization**: [jupyter notebook](https://github.com/MikiasHWT/scRNA_Lethal_Covid19_Analysis/blob/main/2.Normalization.ipynb)
    - *Overview*: Standardization of gene expression measurements across nuclei to account for technical variability.
    - *Key Steps*:
      - Comparison of various normalization and transformation methods.
@@ -22,7 +22,7 @@ The analysis is organized into several key stages, each documented in individual
      - Scran size factor-based normalization.
      - Pearson's residuals transformation.
 
-3. **Feature Selection**: [3.Feature_Selection.ipynb](https://github.com/MikiasHWT/scRNA_Lethal_Covid19_Analysis/blob/main/3.Feature_Selection.ipynb)
+3. **Feature Selection**: [jupyter notebook](https://github.com/MikiasHWT/scRNA_Lethal_Covid19_Analysis/blob/main/3.Feature_Selection.ipynb)
    - *Overview*: Identification of highly variable genes that capture significant biological signals.
    - *Key Steps*:
      - Comparison of various feature selection methods.
@@ -31,7 +31,7 @@ The analysis is organized into several key stages, each documented in individual
      - Pearson's residual-based highly variable gene determination.
      - Selection of genes for downstream analyses based on variability thresholds.
 
-4. **Dimensionality Reduction**: [4.Dimensionality_Reduction.ipynb](https://github.com/MikiasHWT/scRNA_Lethal_Covid19_Analysis/blob/main/4.Dimensionality_Reduction.ipynb)
+4. **Dimensionality Reduction**: [jupyter notebook](https://github.com/MikiasHWT/scRNA_Lethal_Covid19_Analysis/blob/main/4.Dimensionality_Reduction.ipynb)
    - *Overview*: Reduction of data complexity to facilitate visualization and clustering.
    - *Key Steps*:
      - Principal Component Analysis (PCA) to identify major axes of variation.
