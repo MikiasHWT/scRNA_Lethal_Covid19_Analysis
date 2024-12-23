@@ -66,4 +66,3 @@ The analysis is organized into several key stages, each documented in individual
    - *Key Steps*:
      - Pseudotime analysis to infer developmental trajectories.
      - RNA velocity analysis.
-     - Identification of genes driving temporal changes.
